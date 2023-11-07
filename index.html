@@ -41,7 +41,7 @@
                 </select>
                 <select id="months" name="Months">
                     <option value="jan">January</option>
-                    <option value="feb">Febrary</option>
+                    <option value="feb">February</option>
                     <option value="mar">March</option>
                     <option value="apr">April </option>
                     <option value="ma"> May</option>
@@ -55,10 +55,10 @@
                 </select>
                 <input class="submit" name="day" id="day" type="number" value="1" step="1" min="1" max="31">
                 <label class="radio">AM
-                    <input type="radio" name="radio">
+                    <input class="submit" type="radio" name="radio">
                 </label>
                 <label class="radio">PM
-                    <input type="radio" name="radio">
+                    <input class="submit" type="radio" name="radio">
                 </label>
             </fieldset>
             <fieldset>
@@ -85,10 +85,8 @@
                     <input type="checkbox" name="class">
                 </label>
             </fieldset>
-            <label>
-            <textarea name="comment" id="" cols="30" rows="10"></textarea>
-        </label>
-
+            <label>Add any additional comments</label>
+            <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
             <input class="submit" type="submit" value="Submit">
         </form>
     </div>
