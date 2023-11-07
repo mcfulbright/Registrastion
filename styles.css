@@ -1,34 +1,49 @@
 html {
     background-color: cornflowerblue;
 }
+
 label {
     display: block;
     padding-bottom: 5px;
     position: relative;
 }
-input{
-    position: absolute;
+
+input {
     left: 15%;
     width: 75%;
+    position: absolute;
 }
+
 .submit {
     width: initial;
     position: initial;
 }
+
 .container {
     margin: auto;
     width: 80%;
     padding: 25px;
     border-radius: 5px;
-    background-color: aliceblue;
+    background-color: rgb(192, 213, 230);
 }
-h1{
+
+h1 {
     text-align: center;
 }
+
 select {
     width: 20%;
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
-    background-color: rgb(184, 181, 181);
+}
+
+.radio {
+    display: block;
+    position: initial;
+    user-select: none;
+}
+
+legend{
+    font-size: 20px;
 }

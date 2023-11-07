@@ -30,15 +30,64 @@
                     <input type="email" name="email" id="email" required placeholder="Email">
                 </label>
             </fieldset>
-
-                <label>
+            <fieldset>
+                <legend>
                     Reservation Request
+                </legend>
                 <select id="teacher" name="Teacher">
                     <option value="tf">Tiffany Ford</option>
                     <option value="km">Kristen Markley</option>
-                    <option value="jl">Jacksone Lewis</option>
-                    </select>
+                    <option value="jl">Jackson Lewis</option>
+                </select>
+                <select id="months" name="Months">
+                    <option value="jan">January</option>
+                    <option value="feb">Febrary</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April </option>
+                    <option value="ma"> May</option>
+                    <option value="ju"> June</option>
+                    <option value="jl"> July</option>
+                    <option value="au"> August</option>
+                    <option value="sep">September </option>
+                    <option value="oct">October </option>
+                    <option value="nov">November </option>
+                    <option value="dec">December </option>
+                </select>
+                <input class="submit" name="day" id="day" type="number" value="1" step="1" min="1" max="31">
+                <label class="radio">AM
+                    <input type="radio" name="radio">
                 </label>
+                <label class="radio">PM
+                    <input type="radio" name="radio">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Class Selection</legend>
+                <label>
+                    Website Development
+                    <input type="checkbox" name="class">
+                </label>
+                <label>
+                    Website Development II
+
+                    <input type="checkbox" name="class">
+                </label>
+                <label>
+                    Cloud Fundamentals
+                    <input type="checkbox" name="class">
+                </label>
+                <label>
+                    C# Programming
+                    <input type="checkbox" name="class">
+                </label>
+                <label>
+                    Intro to Computer Programming
+                    <input type="checkbox" name="class">
+                </label>
+            </fieldset>
+            <label>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        </label>
 
             <input class="submit" type="submit" value="Submit">
         </form>
